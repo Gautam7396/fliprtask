@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nobel Prize Winners</title>
+</head>
+<body>
+    <h1>Nobel Prize Winners</h1>
+
+    <!-- Filters -->
+    <div class="filters">
+        <label for="yearFilter">Filter by Year:</label>
+        <select id="yearFilter">
+            <option value="">All Years</option>
+        </select>
+
+        <label for="categoryFilter">Filter by Category:</label>
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+        </select>
+    </div>
+
+    <!-- Prize List -->
+    <div id="prizeList"></div>
+
+    <!-- Multiple-Time Laureates -->
+    <h2>Multiple-Time Laureates</h2>
+    <div id="multipleTimeLaureates"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
